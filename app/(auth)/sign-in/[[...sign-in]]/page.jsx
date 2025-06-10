@@ -2,10 +2,6 @@ import { SignIn } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner"
 import { ThemeProvider } from "@/components/ThemeProvider.tsx"
 import Image from 'next/image';
-import dynamic from 'next/dynamic';
-
-// Dynamically import the Contect component
-const Contect = dynamic(() => import('./_components/Contect'), { ssr: false });
 
 export default function Page() {
   return (
